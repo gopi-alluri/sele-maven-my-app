@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52" started-at="2019-07-10T07:36:56Z" finished-at="2019-07-10T07:36:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52" started-at="2019-07-10T07:36:56Z" finished-at="2019-07-10T07:36:56Z">
+      <class name="com.mycompany.app.my_app.APITest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.mycompany.app.my_app.APITest@26ba2a48]" name="login" duration-ms="0" started-at="2019-07-10T07:36:56Z" finished-at="2019-07-10T07:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="purchase()[pri:0, instance:com.mycompany.app.my_app.APITest@26ba2a48]" name="purchase" duration-ms="0" started-at="2019-07-10T07:36:56Z" finished-at="2019-07-10T07:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+      </class> <!-- com.mycompany.app.my_app.APITest -->
+      <class name="com.mycompany.app.my_app.MobileApp">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.mycompany.app.my_app.MobileApp@dfd3711]" name="login" duration-ms="9" started-at="2019-07-10T07:36:56Z" finished-at="2019-07-10T07:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="purchase()[pri:0, instance:com.mycompany.app.my_app.MobileApp@dfd3711]" name="purchase" duration-ms="0" started-at="2019-07-10T07:36:56Z" finished-at="2019-07-10T07:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+      </class> <!-- com.mycompany.app.my_app.MobileApp -->
+      <class name="com.mycompany.app.my_app.WebTest">
+        <test-method status="PASS" signature="purchase()[pri:0, instance:com.mycompany.app.my_app.WebTest@42d3bd8b]" name="purchase" duration-ms="0" started-at="2019-07-10T07:36:56Z" finished-at="2019-07-10T07:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+      </class> <!-- com.mycompany.app.my_app.WebTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
